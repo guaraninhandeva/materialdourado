@@ -20687,19 +20687,19 @@ cr.behaviors.Persist = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
+	cr.plugins_.Mouse,
+	cr.plugins_.TextBox,
+	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Arr,
 	cr.plugins_.Button,
-	cr.plugins_.Mouse,
-	cr.plugins_.TiledBg,
-	cr.plugins_.Touch,
-	cr.plugins_.TextBox,
-	cr.plugins_.Sprite,
-	cr.plugins_.Text,
 	cr.behaviors.Flash,
 	cr.behaviors.DragnDrop,
 	cr.behaviors.Persist,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
-	cr.system_object.prototype.cnds.OnLayoutStart
+	cr.plugins_.Sprite.prototype.acts.SetPos
 ];};

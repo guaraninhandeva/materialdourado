@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1605752292,
+	"version": 1605798365,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -12,6 +12,7 @@
 		"mat100-sheet0.png",
 		"mat10-sheet0.png",
 		"mat1-sheet0.png",
+		"spritebuttonback-sheet0.png",
 		"loading-logo.png",
 		"icon-16.png",
 		"icon-32.png",
